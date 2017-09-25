@@ -1,9 +1,16 @@
 exports.config ={
 
   directConnection:true,
-  capabilities:{
-    'browserName': 'chrome'
-  },
+  multiCapabilities:[
+    {
+      'browserName': 'chrome'
+    },
+    {
+      'browserName': 'safari'
+    }
+
+  ]
+
 
 // comment
 //ccccccc
