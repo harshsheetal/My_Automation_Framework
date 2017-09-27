@@ -6,6 +6,8 @@ exports.config ={
       'browserName': 'chrome'
     },
 
+    framework:'jasmine',
+
 onPrepare:function(){
   browser.ignoreSynchronization = true;
   browser.driver.manage().window().maximize();
